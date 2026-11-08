@@ -4,11 +4,15 @@ Retro Fog makes distance fog look like it did back in the alpha days: the fog st
 
 ## Supported versions
 
-| Minecraft version | Supported |
-| --- | --- |
-| 26.3 | Yes |
+| Minecraft version | Vanilla | Sodium |
+| --- | --- | --- |
+| 26.3 | Yes | Yes, Sodium 0.9.x, no extra mod |
+| 1.21.11 | Yes | Yes, Sodium 0.8.x + [Sodium Core Shader Support](https://modrinth.com/mod/sodium-core-shader-support) |
+| 26.1 - 26.2 | Should work (same shaders as 1.21.11), not tested | Should work with Sodium 0.9.x, not tested |
 
-Older versions (1.21.6 - 1.21.8) are covered by the original [Classic Fog](https://github.com/sydist/classic-fog), which this pack is based on.
+One zip covers all of these: the `mc_1_21_11` folder is an overlay that Minecraft loads automatically on 1.21.11 - 26.2, because the vanilla fog shader is written differently there than in 26.3.
+
+Versions 1.21.6 - 1.21.8 are covered by the original [Classic Fog](https://github.com/sydist/classic-fog), which this pack is based on.
 
 ## Installation
 
@@ -18,7 +22,12 @@ Older versions (1.21.6 - 1.21.8) are covered by the original [Classic Fog](https
 
 ## Sodium
 
-Sodium doesn't support vanilla core shaders. The `assets/sodium` file is meant for [DartCat25's Sodium Shader Support mod](https://github.com/dartcat25/sodium-shader-support) and only works if that mod supports your Minecraft version.
+Retro Fog ships a Sodium version of the fog shader in `assets/sodium`. The same file works on Sodium 0.8.x (1.21.11) and 0.9.x (26.x).
+
+- **26.3:** Sodium 0.9.x lets resource packs override its shaders directly, so no extra mod is needed.
+- **1.21.11:** Sodium 0.8.x needs the [Sodium Core Shader Support](https://modrinth.com/mod/sodium-core-shader-support) mod. `assets/sodiumcoreshadersupport/versions.json` lists the Sodium releases the pack was checked against.
+
+Sodium rewrites its internal shaders between versions, so a new Sodium release may need a pack update.
 
 ## Credits
 

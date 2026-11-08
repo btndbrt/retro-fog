@@ -1,7 +1,19 @@
 {
   "pack": {
-    "min_format": 97,
+    "min_format": 75,
     "max_format": 97,
     "description": "Retro Fog - brings back the old alpha-style fog"
+  },
+  "overlays": {
+    "entries": [
+      {
+        "directory": "mc_1_21_11",
+        "min_format": 75,
+        "max_format": 88
+      }
+    ]
+  },
+  "sodium": {
+    "ignored_shaders": ["fog.glsl"]
   }
 }
