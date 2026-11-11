@@ -2,7 +2,7 @@ const int FOG_SHAPE_SPHERICAL = 0;
 const int FOG_SHAPE_CYLINDRICAL = 1;
 
 float linear_fog_value(float vertexDistance, float fogStart, float fogEnd) {
-    // Retro Fog: start the fog much closer, like in the alpha days
+    // Rewind Edition: start the fog much closer, like in the alpha days
     fogStart /= 3.0;
 
     if (vertexDistance <= fogStart) {

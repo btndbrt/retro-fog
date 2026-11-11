@@ -2,7 +2,7 @@
   "pack": {
     "min_format": 75,
     "max_format": 97,
-    "description": "Retro Fog - brings back the old alpha-style fog"
+    "description": "Rewind Edition - old fog and textures"
   },
   "overlays": {
     "entries": [

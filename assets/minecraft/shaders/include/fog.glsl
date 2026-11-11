@@ -12,7 +12,7 @@ layout(std140) uniform Fog {
 };
 
 float linear_fog_value(float vertexDistance, float fogStart, float fogEnd) {
-    // Retro Fog: start the fog much closer, like in the alpha days
+    // Rewind Edition: start the fog much closer, like in the alpha days
     fogStart /= 3.0;
 
     if (vertexDistance <= fogStart) {
