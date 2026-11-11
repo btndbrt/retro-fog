@@ -23,3 +23,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 For more information, please refer to <http://unlicense.org/>
 ```
+
+## Exception: Vanilla Tweaks
+
+The files in the `vanillatweaks/` folder come from [Vanilla Tweaks](https://vanillatweaks.net/) and are **not** covered by the licence above. They are used under the [Vanilla Tweaks terms](https://vanillatweaks.net/terms/): they may only be redistributed as part of a modified or extended pack, with credit (see `credits.txt`), and the pack must stay free.

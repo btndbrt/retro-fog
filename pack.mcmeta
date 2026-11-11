@@ -10,10 +10,17 @@
         "directory": "mc_1_21_11",
         "min_format": 75,
         "max_format": 88
+      },
+      {
+        "directory": "vanillatweaks",
+        "min_format": 84,
+        "max_format": 97
       }
     ]
   },
   "sodium": {
-    "ignored_shaders": ["fog.glsl"]
+    "ignored_shaders": [
+      "fog.glsl"
+    ]
   }
 }
