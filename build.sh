@@ -21,6 +21,7 @@ FILES=(
   fog_1_21_6_to_1_21_8
   fog_1_21_9_to_26_2
   sodium_0_7
+  vanillatweaks_1_21
   vanillatweaks
   programmer_art_plus
   credits.txt

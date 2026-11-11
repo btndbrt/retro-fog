@@ -1,0 +1,25 @@
+Vanilla Tweaks Resource Pack
+Version: 1.21
+Packs:
+	OldFireflies
+	PoppyToRose
+	BlueWidgetsHighlight
+	OldSpawnEggs
+	ClassicMinecraftLogo
+	OldOres
+	OldNetherrack
+	OldGhasts
+	OldWater
+	OldIce
+	SnoutlessPigs
+	SnoutlessCows
+	KindaClassicSheep
+	BedIcons
+	OldEnchantGlint
+	OldClouds
+	OarlessBoats
+	OldXpSounds
+	OldRedstoneTorch
+	OldWoolColors
+	1.11ShulkerBoxes
+	ClassicPanorama
