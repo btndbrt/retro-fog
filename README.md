@@ -9,11 +9,13 @@ Formerly **Retro Fog**, a continuation of [Classic Fog by sydist](https://github
 
 ## Supported versions
 
-| Minecraft version | Fog | Old textures and sounds | Sodium |
-| --- | --- | --- | --- |
-| 26.3 | Yes | Yes | Yes, Sodium 0.9.x, no extra mod |
-| 26.1 - 26.2 | Should work, not tested | Should work, not tested | Should work with Sodium 0.9.x, not tested |
-| 1.21.11 | Yes | No | Yes, Sodium 0.8.x + [Sodium Core Shader Support](https://modrinth.com/mod/sodium-core-shader-support) |
+| Minecraft version | Fog | Old textures and sounds | Sodium | Tested |
+| --- | --- | --- | --- | --- |
+| 26.3 | Yes | Yes | Sodium 0.9.x, no extra mod | Not yet |
+| 26.1 - 26.2 | Yes | Yes | Sodium 0.9.x, no extra mod | Not yet |
+| 1.21.11 | Yes | No | Sodium 0.8.x + [Sodium Core Shader Support](https://modrinth.com/mod/sodium-core-shader-support) | Not yet |
+
+None of these combinations have been tested with the current version of the pack yet.
 
 One zip covers all of these. Minecraft picks the right parts automatically:
 
@@ -42,6 +44,15 @@ The pack ships a Sodium version of the fog shader in `assets/sodium`. The same f
 - **1.21.11:** Sodium 0.8.x needs the [Sodium Core Shader Support](https://modrinth.com/mod/sodium-core-shader-support) mod. `assets/sodiumcoreshadersupport/versions.json` lists the Sodium releases the pack was checked against.
 
 Sodium rewrites its internal shaders between versions, so a new Sodium release may need a pack update.
+
+## Building
+
+```bash
+./build.sh          # version from git describe
+./build.sh 1.1.0    # explicit version
+```
+
+Needs `zip` (`sudo apt install zip`). The pack goes to `dist/RewindEdition-<version>.zip`; repo-only files like this README, `build.sh` and `tools/` are left out.
 
 ## Updating the Vanilla Tweaks
 
