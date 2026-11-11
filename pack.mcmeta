@@ -1,26 +1,40 @@
 {
   "pack": {
-    "min_format": 75,
+    "pack_format": 63,
+    "supported_formats": [63, 97],
+    "min_format": 63,
     "max_format": 97,
     "description": "Rewind Edition - old fog and textures"
   },
   "overlays": {
     "entries": [
       {
-        "directory": "mc_1_21_11",
-        "min_format": 75,
+        "directory": "fog_1_21_6_to_1_21_8",
+        "formats": [63, 64],
+        "min_format": 63,
+        "max_format": 64
+      },
+      {
+        "directory": "fog_1_21_9_to_26_2",
+        "formats": [69, 88],
+        "min_format": 69,
         "max_format": 88
       },
       {
+        "directory": "sodium_0_7",
+        "formats": [63, 69],
+        "min_format": 63,
+        "max_format": 69
+      },
+      {
         "directory": "vanillatweaks",
+        "formats": [84, 97],
         "min_format": 84,
         "max_format": 97
       }
     ]
   },
   "sodium": {
-    "ignored_shaders": [
-      "fog.glsl"
-    ]
+    "ignored_shaders": ["fog.glsl"]
   }
 }

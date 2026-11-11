@@ -18,7 +18,9 @@ FILES=(
   pack.mcmeta
   pack.png
   assets
-  mc_1_21_11
+  fog_1_21_6_to_1_21_8
+  fog_1_21_9_to_26_2
+  sodium_0_7
   vanillatweaks
   credits.txt
   LICENSE.md

@@ -14,15 +14,16 @@ Formerly **Retro Fog**, a continuation of [Classic Fog by sydist](https://github
 | 26.3 | Yes | Yes | Sodium 0.9.x, no extra mod | Not yet |
 | 26.1 - 26.2 | Yes | Yes | Sodium 0.9.x, no extra mod | Not yet |
 | 1.21.11 | Yes | No | Sodium 0.8.x + [Sodium Core Shader Support](https://modrinth.com/mod/sodium-core-shader-support) | Not yet |
+| 1.21.9 - 1.21.10 | Yes | No | Sodium 0.7.x + Sodium Core Shader Support | Not yet |
+| 1.21.6 - 1.21.8 | Yes | No | Sodium 0.6.13 / 0.7.x + Sodium Core Shader Support | Not yet |
 
-None of these combinations have been tested with the current version of the pack yet.
+None of these combinations have been tested with the current version of the pack yet. Versions before 1.21.6 are not supported: their fog works completely differently.
 
 One zip covers all of these. Minecraft picks the right parts automatically:
 
-- `mc_1_21_11/` holds the fog shader for 1.21.11 - 26.2, because the vanilla fog shader is written differently there than in 26.3.
+- `fog_1_21_6_to_1_21_8/` and `fog_1_21_9_to_26_2/` hold the fog shader for older versions, because the vanilla fog shader is written differently there than in 26.3.
+- `sodium_0_7/` holds the fog shader for Sodium 0.6.13 - 0.7.x (Minecraft 1.21.6 - 1.21.10), which differs slightly from the one in Sodium 0.8 and newer.
 - `vanillatweaks/` holds the old textures and sounds, and only loads on 26.1 - 26.3.
-
-Versions 1.21.6 - 1.21.8 are covered by the original [Classic Fog](https://github.com/sydist/classic-fog).
 
 ## Installation
 
@@ -38,10 +39,10 @@ Textures are only changed where Vanilla Tweaks has a tweak for them; everything 
 
 ## Sodium
 
-The pack ships a Sodium version of the fog shader in `assets/sodium`. The same file works on Sodium 0.8.x (1.21.11) and 0.9.x (26.x).
+The pack ships Sodium versions of the fog shader: `assets/sodium` for Sodium 0.8 and newer, and `sodium_0_7/` for Sodium 0.6.13 - 0.7.x.
 
 - **26.x:** Sodium 0.9.x lets resource packs override its shaders directly, so no extra mod is needed.
-- **1.21.11:** Sodium 0.8.x needs the [Sodium Core Shader Support](https://modrinth.com/mod/sodium-core-shader-support) mod. `assets/sodiumcoreshadersupport/versions.json` lists the Sodium releases the pack was checked against.
+- **1.21.6 - 1.21.11:** Sodium needs the [Sodium Core Shader Support](https://modrinth.com/mod/sodium-core-shader-support) mod. `assets/sodiumcoreshadersupport/versions.json` lists the Sodium releases the pack's shaders were made for.
 
 Sodium rewrites its internal shaders between versions, so a new Sodium release may need a pack update.
 
