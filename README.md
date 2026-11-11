@@ -33,7 +33,7 @@ One zip covers all of these. Minecraft picks the right parts automatically:
 
 ## What's included from Vanilla Tweaks
 
-Old Fireflies, Old Spawn Eggs, Blue Widgets Highlight, Poppy To Rose, Old Wool Colors, Classic Minecraft Logo, Bed Icons, Oarless Boats, Old XP Sounds, Old Water, Old Ice, Old Netherrack, Old Sponge Texture, Snoutless Pigs, Snoutless Cows, Old Ghasts, Old Enchant Glint, 1.11 Shulker Boxes, Old Clouds (4.8.2)
+Old Fireflies, Old Spawn Eggs, Blue Widgets Highlight, Poppy To Rose, Old Wool Colors, Classic Minecraft Logo, Classic Panorama, Bed Icons, Oarless Boats, Old XP Sounds, Old Water, Old Ice, Old Ores, Old Netherrack, Old Redstone Torch, Old Sponge Texture, Snoutless Pigs, Snoutless Cows, Kinda Classic Sheep, Old Ghasts, Old Enchant Glint, 1.11 Shulker Boxes, Old Clouds
 
 Textures are only changed where Vanilla Tweaks has a tweak for them; everything else stays as in vanilla Minecraft.
 
@@ -57,13 +57,13 @@ Needs `zip` (`sudo apt install zip`). The pack goes to `dist/RewindEdition-<vers
 
 ## Updating the Vanilla Tweaks
 
-To change the selection or update to a new Vanilla Tweaks release, download a new zip from the [Vanilla Tweaks picker](https://vanillatweaks.net/picker/resource-packs/) and run:
+To add more tweaks or update to a new Vanilla Tweaks release, download a zip from the [Vanilla Tweaks picker](https://vanillatweaks.net/picker/resource-packs/) and run:
 
 ```bash
 tools/update-vanillatweaks.sh ~/Downloads/VanillaTweaks_<...>.zip
 ```
 
-The selected tweaks are listed in `vanillatweaks/Selected Packs.txt`. Update the list above to match.
+This **adds** the zip's tweaks to the ones already in the pack; nothing is removed. To start over with only the zip's tweaks, use `--replace`. The combined list is kept in `vanillatweaks/Selected Packs.txt`; update the list above to match.
 
 ## Credits
 
