@@ -1,0 +1,13 @@
+# Files from Programmer Art+ that are NOT copied into the pack.
+# One pattern per line, relative to the Programmer Art+ folder; * matches anything.
+# Lines starting with # are comments.
+
+# Licence: Programmer Art+ credits its tuff textures as based on THGABS's work,
+# which is All Rights Reserved, so they can't be shared under CC BY.
+assets/minecraft/textures/block/*tuff*
+
+# Keep Vanilla Tweaks' Classic Panorama instead.
+assets/minecraft/textures/gui/title/background/*
+
+# Keep Vanilla Tweaks' Old Water instead.
+assets/minecraft/textures/block/water_*

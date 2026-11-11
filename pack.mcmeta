@@ -57,12 +57,21 @@
         "max_format": 97
       },
       {
-        "directory": "programmer_art_plus",
+        "directory": "programmer_art_plus_1_21",
         "formats": [
           63,
-          97
+          75
         ],
         "min_format": 63,
+        "max_format": 75
+      },
+      {
+        "directory": "programmer_art_plus",
+        "formats": [
+          84,
+          97
+        ],
+        "min_format": 84,
         "max_format": 97
       }
     ]

@@ -23,6 +23,7 @@ FILES=(
   sodium_0_7
   vanillatweaks_1_21
   vanillatweaks
+  programmer_art_plus_1_21
   programmer_art_plus
   credits.txt
   licenses

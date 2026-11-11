@@ -1,3 +1,5 @@
 Credits:
 Vanilla Tweaks: https://vanillatweaks.net/
-Programmer Art+ by Crackers0106 (netherite armor): https://github.com/Crackers0106/Programmer-Art-Plus, licensed under CC BY 4.0 (see licenses/CC-BY-4.0.txt)
+Programmer Art+ by Crackers0106: https://github.com/Crackers0106/Programmer-Art-Plus, licensed under CC BY 4.0 (see licenses/CC-BY-4.0.txt)
+  with textures by agus_punk, Asteroider (lodestone), Conifer (sweet berries), Moist.Potatoes (bogged), Positron (hanging signs) and TolerableDruid6 (smithing table, fletching table, bee nest, honey blocks)
+Fog: based on Classic Fog by sydist: https://github.com/sydist/classic-fog

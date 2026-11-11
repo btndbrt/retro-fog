@@ -103,5 +103,10 @@ new_packs=$(sed -n '/^Packs:/,$p' "$tmp/Selected Packs.txt" | tail -n +2 | sed '
   printf '%s\n%s\n' "$old_packs" "$new_packs" | grep -v '^$' | awk '!seen[$0]++' | sed 's/^/\t/'
 } > "$list"
 
+# Programmer Art+ wins over Vanilla Tweaks on 26.x, so drop the files it replaces.
+if [ "$target" = vanillatweaks ]; then
+  tools/prune-vanillatweaks.sh
+fi
+
 echo "Done: $target/ has $(find "$target" -type f | wc -l) files."
 echo "Selected tweaks are listed in $list; update the list in README.md to match."

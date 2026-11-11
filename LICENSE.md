@@ -30,4 +30,4 @@ The files in the `vanillatweaks/` and `vanillatweaks_1_21/` folders come from [V
 
 ## Exception: Programmer Art+
 
-The files in the `programmer_art_plus/` folder (netherite armor textures) come from [Programmer Art+](https://github.com/Crackers0106/Programmer-Art-Plus) by Crackers0106 and are **not** covered by the licence above. They are used unchanged under [CC BY 4.0](licenses/CC-BY-4.0.txt), which allows sharing them as long as the author is credited (see `credits.txt`).
+The files in the `programmer_art_plus/` and `programmer_art_plus_1_21/` folders come from [Programmer Art+](https://github.com/Crackers0106/Programmer-Art-Plus) by Crackers0106 and its contributors (see `programmer_art_plus/CREDITS.txt` and `credits.txt`), and are **not** covered by the licence above. They are used unchanged under [CC BY 4.0](licenses/CC-BY-4.0.txt), which allows sharing them as long as the authors are credited. Programmer Art+'s tuff textures are left out, because Programmer Art+ credits them as based on another author's All Rights Reserved work.
