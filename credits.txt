@@ -1,2 +1,3 @@
 Credits:
 Vanilla Tweaks: https://vanillatweaks.net/
+Programmer Art+ by Crackers0106 (netherite armor): https://github.com/Crackers0106/Programmer-Art-Plus, licensed under CC BY 4.0 (see licenses/CC-BY-4.0.txt)

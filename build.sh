@@ -22,7 +22,9 @@ FILES=(
   fog_1_21_9_to_26_2
   sodium_0_7
   vanillatweaks
+  programmer_art_plus
   credits.txt
+  licenses
   LICENSE.md
 )
 

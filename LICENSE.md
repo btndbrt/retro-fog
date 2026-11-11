@@ -27,3 +27,7 @@ For more information, please refer to <http://unlicense.org/>
 ## Exception: Vanilla Tweaks
 
 The files in the `vanillatweaks/` folder come from [Vanilla Tweaks](https://vanillatweaks.net/) and are **not** covered by the licence above. They are used under the [Vanilla Tweaks terms](https://vanillatweaks.net/terms/): they may only be redistributed as part of a modified or extended pack, with credit (see `credits.txt`), and the pack must stay free.
+
+## Exception: Programmer Art+
+
+The files in the `programmer_art_plus/` folder (netherite armor textures) come from [Programmer Art+](https://github.com/Crackers0106/Programmer-Art-Plus) by Crackers0106 and are **not** covered by the licence above. They are used unchanged under [CC BY 4.0](licenses/CC-BY-4.0.txt), which allows sharing them as long as the author is credited (see `credits.txt`).

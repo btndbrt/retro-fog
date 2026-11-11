@@ -3,7 +3,7 @@
 Rewind Edition brings back the look and feel of old Minecraft in modern versions:
 
 - **Old fog:** distance fog looks like it did in the alpha days. It starts much closer to you, so the world fades out the way it used to.
-- **Old textures and sounds** (26.x only): a selection of [Vanilla Tweaks](https://vanillatweaks.net/) that restore older looks, like the old water, clouds, logo and wool colours.
+- **Old textures and sounds** (26.x only): a selection of [Vanilla Tweaks](https://vanillatweaks.net/) that restore older looks, like the old water, clouds, logo, ores and wool colours, plus the netherite armor from [Programmer Art+](https://github.com/Crackers0106/Programmer-Art-Plus).
 
 Formerly **Retro Fog**, a continuation of [Classic Fog by sydist](https://github.com/sydist/classic-fog).
 
@@ -24,6 +24,7 @@ One zip covers all of these. Minecraft picks the right parts automatically:
 - `fog_1_21_6_to_1_21_8/` and `fog_1_21_9_to_26_2/` hold the fog shader for older versions, because the vanilla fog shader is written differently there than in 26.3.
 - `sodium_0_7/` holds the fog shader for Sodium 0.6.13 - 0.7.x (Minecraft 1.21.6 - 1.21.10), which differs slightly from the one in Sodium 0.8 and newer.
 - `vanillatweaks/` holds the old textures and sounds, and only loads on 26.1 - 26.3.
+- `programmer_art_plus/` holds the netherite armor from Programmer Art+, and only loads on 26.1 - 26.3.
 
 ## Installation
 
@@ -36,6 +37,10 @@ One zip covers all of these. Minecraft picks the right parts automatically:
 Old Fireflies, Old Spawn Eggs, Blue Widgets Highlight, Poppy To Rose, Old Wool Colors, Classic Minecraft Logo, Classic Panorama, Bed Icons, Oarless Boats, Old XP Sounds, Old Water, Old Ice, Old Ores, Old Netherrack, Old Redstone Torch, Old Sponge Texture, Snoutless Pigs, Snoutless Cows, Kinda Classic Sheep, Old Ghasts, Old Enchant Glint, 1.11 Shulker Boxes, Old Clouds
 
 Textures are only changed where Vanilla Tweaks has a tweak for them; everything else stays as in vanilla Minecraft.
+
+## From Programmer Art+
+
+Netherite armor (worn and inventory icons) comes from [Programmer Art+](https://github.com/Crackers0106/Programmer-Art-Plus) instead of Vanilla Tweaks. Programmer Art+ has no baby version of the armor, so baby players keep the vanilla look.
 
 ## Sodium
 
@@ -74,7 +79,8 @@ This **adds** the zip's tweaks to the ones already in the pack; nothing is remov
   Credits:
   Vanilla Tweaks: https://vanillatweaks.net/
   ```
+- **Netherite armor:** [Programmer Art+](https://github.com/Crackers0106/Programmer-Art-Plus) by Crackers0106, used under [CC BY 4.0](licenses/CC-BY-4.0.txt).
 
 ## License
 
-The fog is released into the public domain under The Unlicense, the same as the original. The `vanillatweaks/` files are not: they are used under the [Vanilla Tweaks terms](https://vanillatweaks.net/terms/). See [LICENSE.md](LICENSE.md).
+The fog is released into the public domain under The Unlicense, the same as the original. The `vanillatweaks/` files are not: they are used under the [Vanilla Tweaks terms](https://vanillatweaks.net/terms/). The `programmer_art_plus/` files are CC BY 4.0 by Crackers0106. See [LICENSE.md](LICENSE.md).
